@@ -19,7 +19,7 @@ function App() {
 	// Output
 	return (
 		<Provider store={store}>
-			<Router>
+			<Router basename={process.env.PUBLIC_URL}>
 				<Route exact path="/" component={MainView} />
 				<Route exact path="/design-system" component={DocsView} />
 				<Route exact path="/settings" component={SettingsView} />
