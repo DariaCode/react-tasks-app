@@ -2,10 +2,7 @@
 [React](https://reactjs.org/) based task list single page application.
 
 **Demo:**  
-[https://react-tasks-app.binaryjim.co.uk/](https://react-tasks-app.binaryjim.co.uk/)
-
-**Design system:**  
-[https://react-tasks-app.binaryjim.co.uk/design-system](https://react-tasks-app.binaryjim.co.uk/design-system)
+[https://binaryjim.github.io/react-tasks-app](https://binaryjim.github.io/react-tasks-app)
 
 ## Current application state
 
