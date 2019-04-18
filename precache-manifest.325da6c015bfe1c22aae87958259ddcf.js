@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7f1d63beefaf2fd41350",
-    "url": "/react-tasks-app/static/css/main.d15a965b.chunk.css"
+    "revision": "a333cb41dc2f1f9f76c8",
+    "url": "/react-tasks-app/static/css/main.c78a9581.chunk.css"
   },
   {
-    "revision": "7f1d63beefaf2fd41350",
-    "url": "/react-tasks-app/static/js/main.35e31ecd.chunk.js"
+    "revision": "a333cb41dc2f1f9f76c8",
+    "url": "/react-tasks-app/static/js/main.dcdd43a5.chunk.js"
   },
   {
     "revision": "5103af7f8e23f14a623e",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/react-tasks-app/static/media/README.c58ce7ce.md"
   },
   {
-    "revision": "05615b5d00496c278fd2773242b5ece3",
+    "revision": "489adfbcb2e932db3b7ace393e274f2f",
     "url": "/react-tasks-app/index.html"
   }
 ];
