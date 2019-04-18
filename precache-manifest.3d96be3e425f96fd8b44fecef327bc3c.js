@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/react-tasks-app/static/media/README.c58ce7ce.md"
   },
   {
-    "revision": "858c83aa2fa2e0031858088e0e62066e",
+    "revision": "05615b5d00496c278fd2773242b5ece3",
     "url": "/react-tasks-app/index.html"
   }
 ];
