@@ -64,7 +64,7 @@ Built by James Humphreys - [BinaryJim](https://binaryjim.co.uk)
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/binaryjim/react-tasks-app/blob/master/license.txt) - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/binaryjim/react-tasks-app/blob/master/license.txt) file for details
 
 ## Acknowledgements
 
