@@ -18,11 +18,13 @@ const AppSettings = props => {
 				checked={props.showCompletedTasks}
 				onChange={props.toggleShowCompletedTasks}
 			/>
+			{/*
 			<SwitchSetting
 				description="Dark mode"
 				checked={props.darkMode}
 				onChange={props.toggleDarkMode}
 			/>
+			*/}
 			<ButtonSetting
 				description="Delete completed tasks"
 				buttonClasses="color-alert"
