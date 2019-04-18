@@ -4,6 +4,9 @@
 **Demo:**  
 [https://binaryjim.github.io/react-tasks-app](https://binaryjim.github.io/react-tasks-app)
 
+**Design system:**  
+[https://binaryjim.github.io/react-tasks-app/design-system](https://binaryjim.github.io/react-tasks-app/design-system)
+
 ## Current application state
 
 The current version provides CRUD functionality for user created tasks using [Redux](https://redux.js.org/) and  [React-Redux](https://react-redux.js.org/). The [local storage API](https://developer.mozilla.org/en-US/docs/Web/API/Storage) is used for data persistence and a UUID is generated for each new task.
