@@ -1,0 +1,22 @@
+// --------------------------------------------------------
+// Description styles
+// --------------------------------------------------------
+@import "../../styles/util/all";
+
+%description {
+
+	font-size: rem-calc(14);
+
+	@include breakpoint('lg') {
+		font-size: rem-calc($body-text-size);
+	}
+
+	&.text-strikethrough {
+		color: map-get($theme-colors, 'dark-grey');
+	}
+
+}
+
+.list-item-description {
+	@extend %description;
+}

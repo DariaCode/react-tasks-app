@@ -1,0 +1,33 @@
+// --------------------------------------------------------
+// Title styles
+// --------------------------------------------------------
+
+@import "../../styles/util/all";
+
+%title {
+
+  // Base styles
+  font-weight: bold;
+  line-height: 1.125;
+  color: map-get($theme-colors, 'black');
+  font-size: rem-calc(map-get($title-sizes, 'reg'));
+
+  // Size modifiers
+  @each $label, $size in $title-sizes {
+    &.size-#{$label} {
+			font-size: rem-calc($size);
+    }
+	}
+
+	// Color modifiers
+	@each $label, $color in $theme-colors {
+    &.color-#{$label} {
+      color: $color;
+    }
+  }
+	
+}
+
+.title {
+  @extend %title;
+}

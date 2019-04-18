@@ -1,0 +1,47 @@
+// --------------------------------------------------------
+// Title bar styles
+// --------------------------------------------------------
+
+@import "../../styles/util/all";
+
+%title-bar {
+	
+	// Base styles
+	min-height: rem-calc($gap * 2);
+	padding: rem-calc($gap);
+	display: flex;
+	align-items: center;
+	flex: 1 1 auto;
+	box-shadow: 0 0 rem-calc(10) rgba(map-get($theme-colors, 'black'), 0.4);
+	background-color: map-get($theme-colors, 'primary');
+
+	// --------------------------------------------------------
+	// Fixed position
+	// --------------------------------------------------------
+	&.is-fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1000;
+	}
+
+	// --------------------------------------------------------
+	// Layout containers
+	// --------------------------------------------------------
+	.left-slot,
+	.right-slot {
+		display: flex;
+		flex: 1 1 auto;
+		align-items: center;
+	}
+
+	.right-slot {
+		justify-content: flex-end;
+	}
+
+}
+
+.title-bar {
+	@extend %title-bar;
+}
