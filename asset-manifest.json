@@ -1,14 +1,14 @@
 {
-  "main.css": "/react-tasks-app/static/css/main.c78a9581.chunk.css",
-  "main.js": "/react-tasks-app/static/js/main.dcdd43a5.chunk.js",
-  "main.js.map": "/react-tasks-app/static/js/main.dcdd43a5.chunk.js.map",
-  "runtime~main.js": "/react-tasks-app/static/js/runtime~main.4ce03a12.js",
-  "runtime~main.js.map": "/react-tasks-app/static/js/runtime~main.4ce03a12.js.map",
-  "static/js/2.fb9896bb.chunk.js": "/react-tasks-app/static/js/2.fb9896bb.chunk.js",
-  "static/js/2.fb9896bb.chunk.js.map": "/react-tasks-app/static/js/2.fb9896bb.chunk.js.map",
+  "main.css": "/react-tasks-app/static/css/main.fca4ae16.chunk.css",
+  "main.js": "/react-tasks-app/static/js/main.85e20688.chunk.js",
+  "main.js.map": "/react-tasks-app/static/js/main.85e20688.chunk.js.map",
+  "runtime~main.js": "/react-tasks-app/static/js/runtime~main.46e6d22f.js",
+  "runtime~main.js.map": "/react-tasks-app/static/js/runtime~main.46e6d22f.js.map",
+  "static/js/2.84d04f53.chunk.js": "/react-tasks-app/static/js/2.84d04f53.chunk.js",
+  "static/js/2.84d04f53.chunk.js.map": "/react-tasks-app/static/js/2.84d04f53.chunk.js.map",
   "index.html": "/react-tasks-app/index.html",
-  "precache-manifest.325da6c015bfe1c22aae87958259ddcf.js": "/react-tasks-app/precache-manifest.325da6c015bfe1c22aae87958259ddcf.js",
+  "precache-manifest.17d9dfa951fb3b13f986c7cb8ed5439b.js": "/react-tasks-app/precache-manifest.17d9dfa951fb3b13f986c7cb8ed5439b.js",
   "service-worker.js": "/react-tasks-app/service-worker.js",
-  "static/css/main.c78a9581.chunk.css.map": "/react-tasks-app/static/css/main.c78a9581.chunk.css.map",
+  "static/css/main.fca4ae16.chunk.css.map": "/react-tasks-app/static/css/main.fca4ae16.chunk.css.map",
   "static/media/README.md": "/react-tasks-app/static/media/README.fc66d157.md"
 }

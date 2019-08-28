@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "a333cb41dc2f1f9f76c8",
-    "url": "/react-tasks-app/static/css/main.c78a9581.chunk.css"
+    "revision": "2cbf444fd52efb6896e1",
+    "url": "/react-tasks-app/static/css/main.fca4ae16.chunk.css"
   },
   {
-    "revision": "a333cb41dc2f1f9f76c8",
-    "url": "/react-tasks-app/static/js/main.dcdd43a5.chunk.js"
+    "revision": "2cbf444fd52efb6896e1",
+    "url": "/react-tasks-app/static/js/main.85e20688.chunk.js"
   },
   {
-    "revision": "5103af7f8e23f14a623e",
-    "url": "/react-tasks-app/static/js/runtime~main.4ce03a12.js"
+    "revision": "0eda4dd2bc593c2b4171",
+    "url": "/react-tasks-app/static/js/runtime~main.46e6d22f.js"
   },
   {
-    "revision": "8d3e736a1ed11399c004",
-    "url": "/react-tasks-app/static/js/2.fb9896bb.chunk.js"
+    "revision": "4b4b0e8cf162266f04e0",
+    "url": "/react-tasks-app/static/js/2.84d04f53.chunk.js"
   },
   {
     "revision": "4474570e07e9c48d2431636ec21507cb",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/react-tasks-app/static/media/README.c58ce7ce.md"
   },
   {
-    "revision": "489adfbcb2e932db3b7ace393e274f2f",
+    "revision": "2d9a2c789ea5aa31d4ae43bb92ef986d",
     "url": "/react-tasks-app/index.html"
   }
 ];
