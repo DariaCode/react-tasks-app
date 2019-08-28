@@ -18,13 +18,19 @@ export const Button = props => {
 
 	return (
 		<Element
-			type={props.type}
-			name={props.name}
-			className={`button ${props.classes}`}
-			disabled={props.disabled}
-			onClick={props.onClick}
-			to={props.link ? props.link : undefined}
-			{...props.external ? {href: props.link, target: '_blank'} : null}
+			{ ...props.name ? { name: props.name } : null}
+			//name={props.name}
+			{ ...props.type ? { type: props.type } : null}
+			//type={props.type}
+			{...props.classes ? { className : `button ${props.classes}` } : { className: "button" } }
+			//className={`button ${props.classes}`}
+			{ ...props.disabled ? { disabled: true } : null }
+			//disabled={props.disabled}
+			{...props.onClick ? { onClick: props.onClick} : null }
+			//onClick={props.onClick}
+			{...props.link && !props.external ? { to: props.link } : undefined}
+			// to={props.link ? props.link : undefined}
+			{...props.external ? { href: props.link, target: '_blank' } : null}
 		>
 			{props.children}
 		</Element>
@@ -32,11 +38,12 @@ export const Button = props => {
 }
 
 Button.defaultProps = {
-	type: null,
 	name: null,
+	type: null,
 	classes: null,
 	disabled: false,
-	children: null,
+	onClick: null,
 	link: false,
-	external: false
+	external: false,
+	children: null,
 };
