@@ -21,6 +21,8 @@ describe('Button - default render', () => {
 		component = shallow(
 			<Button>Test Button</Button>
 		);
+
+		console.log(component.debug());
 	});
 
 	it('matches snapshot', () => {
@@ -32,12 +34,32 @@ describe('Button - default render', () => {
 	});
 
 	it('should have the correct class name applied to the root node', () => {
-		expect(component.find('*').at(0).hasClass('button')).toEqual(true);
+		expect(component.at(0).hasClass('button')).toEqual(true);
 	});
 
-	it('should not be disabled by default', () => {
-		expect(component.find('button').at(0).is('[disabled]')).toEqual(false);
+	it('should not be "disabled" by default', () => {
+		expect(component.at(0).is('[disabled]')).toEqual(false);
 	});
+
+	it('should not output a "name" attribute by default', () => {
+		expect(component.at(0).is('[name]')).toEqual(false);
+	})
+
+	it('should not output a "type" attribute by default', () => {
+		expect(component.at(0).is('[type]')).toEqual(false);
+	})
+
+	it('should not output a "to" attribute by default', () => {
+		expect(component.at(0).is('[to]')).toEqual(false);
+	})
+
+	it('should not output a "href" attribute by default', () => {
+		expect(component.at(0).is('[href]')).toEqual(false);
+	})
+
+	it('should render a correct button label when passed a child prop', () => {
+		expect(component.prop('children')).toBe('Test Button');
+	})
 
 })
 
@@ -58,14 +80,14 @@ describe('Button - type "button" render', () => {
 				disabled={false}
 				onClick={buttonOnClickFunc}
 			>
-				Test button
+				Test Button
 			</Button>
 		);
 
 	});
 
 	it('should be rendered as a button element', () => {
-		expect(component.at(0).type()).toBe('button');
+		expect(component.type()).toBe('button');
 	});
 
 	it('should output the correct class name when provied as classes prop', () => {
@@ -75,6 +97,10 @@ describe('Button - type "button" render', () => {
 	it('should output a name attribute with the correct value', () => {
 		expect(component.at(0).is('[name="test-button"]')).toEqual(true);
 	});
+
+	it('should output a type attribute with the correct value', () => {
+		expect(component.at(0).is('[type="button"]')).toEqual(true);
+	})
 
 	it('should not render as disabled when provided a "disabled={false}" prop', () => {
 		expect(component.at(0).is('[disabled]')).toEqual(false);
@@ -86,7 +112,9 @@ describe('Button - type "button" render', () => {
 	});
 
 	it('should render a correct button label when passed a child prop', () => {
-		expect(component.prop('children')).toBe('Test button');
+		expect(component.prop('children')).toBe('Test Button');
 	})
 
 })
+
+// describe('Button - ')
