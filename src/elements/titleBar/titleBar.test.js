@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json'
 import { TitleBar } from './titleBar';
 
@@ -8,7 +8,7 @@ describe('TitleBar', () => {
 	it('renders without crashing', () => {
 		shallow(<TitleBar />)
 	})
-	
+
 })
 
 describe('TitleBar - default render', () => {
@@ -45,7 +45,7 @@ describe('TitleBar - props', () => {
 	let component;
 
 	beforeAll( () => {
-		component = mount(
+		component = shallow(
 			<TitleBar
 				classes='test-class'
 				leftSlot='Left slot content'
