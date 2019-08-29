@@ -16,10 +16,10 @@
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
-		width: 48px;
-		height: 24px;
-		padding: 4px;
-		border-radius: 64px;
+		width: rem-calc(48);
+		height: rem-calc(24);
+		padding: rem-calc(4);
+		border-radius: rem-calc(64);
 		background-color: #c7c7c7;
 		cursor: pointer;
 		transition: all 0.2s ease-in-out;
