@@ -6,7 +6,7 @@ export const ViewHeader = props => {
 	return(
 		<div className={`view-header ${props.classes}`}>
 			<TextLink link={props.link}>{props.linkLabel}</TextLink>
-			<Title element={props.element} classes="size-lg">{props.title}</Title>
+			<Title { ...props.element ? { element : props.element } : null } classes="size-lg">{props.title}</Title>
 		</div>
 	);
 }
@@ -14,6 +14,7 @@ export const ViewHeader = props => {
 ViewHeader.defaultProps = {
 	classes: "",
 	linkLabel: "",
+	link: false,
 	title: "",
-	link: false
+	element: null
 }
