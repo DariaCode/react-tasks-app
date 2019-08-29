@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewHeader - default render should match snapshot 1`] = `
+<div
+  className="view-header "
+>
+  <TextLink
+    classes=""
+    external={false}
+    link={false}
+  />
+  <Title
+    classes="size-lg"
+    element="p"
+  />
+</div>
+`;
