@@ -238,7 +238,7 @@ describe('Button - additional classes', () => {
 	});
 
 	it('should output the correct class name when provied via "classes" prop', () => {
-		expect(component.at(0).hasClass('button test-button-class')).toEqual(true);
+		expect(component.at(0).hasClass('test-button-class')).toEqual(true);
 	});
 
 });
