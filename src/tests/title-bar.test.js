@@ -7,9 +7,9 @@ describe('TitleBar', () => {
 
 	it('renders without crashing', () => {
 		shallow(<TitleBar />)
-	})
+	});
 
-})
+});
 
 describe('TitleBar - default render', () => {
 
@@ -21,24 +21,24 @@ describe('TitleBar - default render', () => {
 		);
 	});
 
-	it('matches snapshot', () => {
+	it('should match snapshot', () => {
 		expect(toJson(component)).toMatchSnapshot();
-	})
+	});
 
 	it('should have the correct class applied to the root node', () => {
 		expect(component.find('div').at(0).hasClass('title-bar')).toEqual(true);
-	})
+	});
 
 	it('should not output left-slot and right-slot containers if not given leftSlot or rightSlot props', () => {
 		expect(component.exists('.left-slot')).toEqual(false);
 		expect(component.exists('.right-slot')).toEqual(false);
-	})
+	});
 
 	afterAll( () => {
 		component.unmount();
-	})
+	});
 
-})
+});
 
 describe('TitleBar - props', () => {
 
@@ -76,6 +76,6 @@ describe('TitleBar - props', () => {
 
 	afterAll( () => {
 		component.unmount();
-	})
+	});
 
-})
+});
