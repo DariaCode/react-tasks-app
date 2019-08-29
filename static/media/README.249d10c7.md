@@ -2,7 +2,7 @@
 
 Button setting is a component to render to view a setting preference action, which is dispatched using a button.
 
-`import { ButtonSetting } from './components/buttonSetting'`
+`import { ButtonSetting } from './components/button-setting'`
 
 ### Usage
 

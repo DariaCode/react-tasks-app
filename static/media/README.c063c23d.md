@@ -2,7 +2,7 @@
 
 List item container is an element used to render a list item (for example a task item or setting). It has two available input slots (left and right aligned).
 
-`import { ListItemContainer } from './elements/listItemContainer'`
+`import { ListItemContainer } from './components/list-item-container'`
 
 ### Usage
 

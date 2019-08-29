@@ -2,7 +2,7 @@
 
 Text link is an element used to provide a routing link (internal or external), which uses react-router.
 
-`import { TextLink } from './elements/textLink'`
+`import { TextLink } from './components/text-link'`
 
 ### Usage
 
@@ -25,7 +25,7 @@ Property | Description | Type | Value/s | Required | Default
 The element has the following **optional** styles, these options and additional helper-classes can be applied by passing `value/s` via the `classes` property.
 
 Style | Description | Value/s | Default
--|-|-
+-|-|-|-
 Color | Sets the color of the link | `color-primary` , `color-alert` , `color-warning` , `color-success` , `color-light-grey` , `color-medium-grey` , `color-dark-grey` , `color-black` , `color-white` | `color-primary`
 
 ---

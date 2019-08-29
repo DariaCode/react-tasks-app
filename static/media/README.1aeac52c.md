@@ -4,7 +4,7 @@ Task item is a component to contain and render to view a task description and co
 
 **Note:** This is a controlled component, checked state / value changes need be managed via parent component or a state manager (Redux).
 
-`import { TaskItem } from './components/taskitem'`
+`import { TaskItem } from './components/task-item'`
 
 ### Usage
 

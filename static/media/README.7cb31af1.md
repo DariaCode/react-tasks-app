@@ -4,7 +4,7 @@ To reduce repitition and automate many helper utilities, the design system is bu
 
 **Located at:**  
 
-`/src/styles/util/_globalVariables.scss`
+`/src/scss/util/_global-variables.scss`
 
 --- 
 
@@ -14,7 +14,7 @@ A selection of SCSS helper functions are available to assist in the styling of o
 
 **Located at:**  
 
-`/src/styles/util/_functions.scss`
+`/src/scss/util/_functions.scss`
 
 #### Tint
 
@@ -145,7 +145,7 @@ className | The text color `${label}` as per the global variables `$theme-colors
 Apply various text styles by passing the following helper classes
 
 Style | Description | Value/s
--|-|-|-
+-|-|-
 Strikethrough | Places a strikethrough over a given text element | `text-strikethrough`
 Italic | Sets a given text element to italic | `text-italic`
 Bold | Sets a given text element to bold | `text-bold`

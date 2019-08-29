@@ -2,7 +2,7 @@
 
 TitleBar is a container for application UI elements. It spans the entire viewport width, has the option to be fixed to the top of the viewport and has two available input slots (left and right aligned).
 
-`import { TitleBar } from './elements/titleBar'`
+`import { TitleBar } from './components/title-bar'`
 
 ### Usage
 
@@ -32,7 +32,7 @@ Property | Description | Type | Value/s | Required | Default
 The element has the following **optional** styles, these options and additional helper-classes can be applied by passing `value/s` via the `classes` property.
 
 Style | Description | Value/s | Default
--|-|-
+-|-|-|-
 Position | Fixes the titleBar to the top of the viewport | `is-fixed` | Static
 
 ---

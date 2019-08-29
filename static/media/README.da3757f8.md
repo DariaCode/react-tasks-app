@@ -4,7 +4,7 @@ Check is an element used to render and change a boolean value. It is built using
 
 **Note:** This is a [controlled input element](https://reactjs.org/docs/forms.html), checked state / value changes need be managed via parent component or a state manager (Redux).
 
-`import { Check } from './elements/check'`
+`import { Check } from './components/check'`
 
 ### Usage
 

@@ -4,7 +4,7 @@ Switch is an element used to render and change a boolean value. It is built usin
 
 **Note:** This is a [controlled input element](https://reactjs.org/docs/forms.html), checked state / value changes need be managed via parent component or a state manager (Redux).
 
-`import { Switch } from './elements/switch'`
+`import { Switch } from './components/switch'`
 
 ### Usage
 

@@ -4,7 +4,7 @@ Switch setting is a component to render to view a setting preference (boolean), 
 
 **Note:** This is a controlled component, checked state / value changes need be managed via parent component or a state manager (Redux).
 
-`import { SwitchSetting } from './components/switchSetting'`
+`import { SwitchSetting } from './components/switch-setting'`
 
 ### Usage
 

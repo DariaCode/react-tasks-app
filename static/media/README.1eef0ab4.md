@@ -2,7 +2,7 @@
 
 View header is a component used to display a title for the current view with link to re-route the user.
 
-`import { ViewHeader } from './components/viewHeader'`
+`import { ViewHeader } from './components/view-header'`
 
 ### Usage
 

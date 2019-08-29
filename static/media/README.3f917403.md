@@ -2,7 +2,7 @@
 
 List item description is an element used to render a simple string description for a list item (for example a task item or setting).
 
-`import { ListItemDescription } from './elements/listItemDescription'`
+`import { ListItemDescription } from './components/list-item-description'`
 
 ### Usage
 
