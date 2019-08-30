@@ -6,11 +6,9 @@
 // --------------------------------------------------------
 
 // --------------------------------------------------------
-// All utilities
+// All base styles
 // --------------------------------------------------------
 @import 
-	"../../../node_modules/normalize.css/normalize",
-	"functions",
-	"mixins",
-	"globalVariables",
-	"helpers";
+  "../../../node_modules/normalize.css/normalize",
+  "base",
+  "helpers";
